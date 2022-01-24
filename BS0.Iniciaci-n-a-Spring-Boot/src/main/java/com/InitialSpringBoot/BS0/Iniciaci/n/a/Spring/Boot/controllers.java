@@ -12,9 +12,9 @@ public class controllers {
     }
 
     @PostMapping("/useradd")
-    public User postUser (@RequestBody User user){
-        user.setAge(user.getAge()+1);
-                return user;
+    public Person postPerson (@RequestBody Person person){
+        person.setAge(person.getAge()+1);
+                return person;
     }
 
 
